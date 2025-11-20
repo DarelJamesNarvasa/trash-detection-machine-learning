@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Trashbag']
+
+roboflow:
+  workspace: ians-research
+  project: finaltrashscan-ucdom
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ians-research/finaltrashscan-ucdom/dataset/1
